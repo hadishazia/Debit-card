@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debit Card</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div class="card-container">
+      <div class="card" id="debitCard">
+        <!-- Front of the card -->
+        <div class="card-front">
+          <div class="bank-logo">
+            <img src="logo1-removebg-preview.png" alt="Bank Logo">
+          </div>
+          <h3>Bank AL Habib LTD.</h3>
+          <p class="card-number">1234 5678 9012 3456</p>
+          <p class="card-expiry">Expires: 01/30</p>
+          <p class="cardholder-name">Cardholder Name</p>
+        </div>
+        <!-- Back of the card -->
+        <div class="card-back">
+          <div class="black-bar"></div>
+          <div class="white-bar"><span class="cardCVV">123</span>
+          </div>
+
+          <p class="authorized-signature">Authorized Signature</p>
+          <p class="bank-details">
+            United Bank Limited.<br>
+            Use of this card is governed by the terms and conditions <br>
+            24 Hour Custumer Service: (+92 21) 111-825-888<br>
+            <a class="link" href="https://www.ubldirect.com" target="_blank">www.ubldirect.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="index.js"></script> 
+  
+
+</body>
+</html>
